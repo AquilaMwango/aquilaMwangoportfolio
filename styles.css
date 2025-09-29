@@ -224,3 +224,26 @@ footer {
   body { font-size: 14px; }
   .download-btn { width: 100%; text-align: center; }
 }
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-images img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00f7, 0 0 20px #00ffe7;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project-images img:hover {
+  transform: scale(1.30);
+}
+
